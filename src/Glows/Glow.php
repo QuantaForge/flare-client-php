@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Glows;
+namespace QuantaForge\FlareClient\Glows;
 
-use QuantaQuirk\FlareClient\Concerns\UsesTime;
-use QuantaQuirk\FlareClient\Enums\MessageLevels;
+use QuantaForge\FlareClient\Concerns\UsesTime;
+use QuantaForge\FlareClient\Enums\MessageLevels;
 
 class Glow
 {

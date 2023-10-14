@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Enums;
+namespace QuantaForge\FlareClient\Enums;
 
 class MessageLevels
 {

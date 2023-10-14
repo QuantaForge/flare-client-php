@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Tests\Concerns;
+namespace QuantaForge\FlareClient\Tests\Concerns;
 
-use QuantaQuirk\FlareClient\Tests\TestClasses\ReportDriver;
-use QuantaQuirk\Snapshots\MatchesSnapshots;
+use QuantaForge\FlareClient\Tests\TestClasses\ReportDriver;
+use QuantaForge\Snapshots\MatchesSnapshots;
 
 trait MatchesReportSnapshots
 {

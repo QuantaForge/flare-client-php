@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Glows;
+namespace QuantaForge\FlareClient\Glows;
 
 class GlowRecorder
 {

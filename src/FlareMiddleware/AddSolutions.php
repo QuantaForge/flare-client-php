@@ -1,10 +1,10 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\FlareMiddleware;
+namespace QuantaForge\FlareClient\FlareMiddleware;
 
 use Closure;
-use QuantaQuirk\FlareClient\Report;
-use QuantaQuirk\Ignition\Contracts\SolutionProviderRepository;
+use QuantaForge\FlareClient\Report;
+use QuantaForge\Ignition\Contracts\SolutionProviderRepository;
 
 class AddSolutions implements FlareMiddleware
 {

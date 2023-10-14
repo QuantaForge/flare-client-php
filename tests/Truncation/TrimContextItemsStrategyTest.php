@@ -1,9 +1,9 @@
 <?php
 
-use QuantaQuirk\Support\Str;
+use QuantaForge\Support\Str;
 
-use QuantaQuirk\FlareClient\Truncation\ReportTrimmer;
-use QuantaQuirk\FlareClient\Truncation\TrimContextItemsStrategy;
+use QuantaForge\FlareClient\Truncation\ReportTrimmer;
+use QuantaForge\FlareClient\Truncation\TrimContextItemsStrategy;
 
 beforeEach(function () {
     ReportTrimmer::setMaxPayloadSize(52428);

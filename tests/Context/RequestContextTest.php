@@ -1,7 +1,7 @@
 <?php
 
-use QuantaQuirk\FlareClient\Context\RequestContextProvider;
-use QuantaQuirk\FlareClient\Tests\Concerns\MatchesCodeSnippetSnapshots;
+use QuantaForge\FlareClient\Context\RequestContextProvider;
+use QuantaForge\FlareClient\Tests\Concerns\MatchesCodeSnippetSnapshots;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request;
 

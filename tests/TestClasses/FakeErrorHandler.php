@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Tests\TestClasses;
+namespace QuantaForge\FlareClient\Tests\TestClasses;
 
 use Closure;
 use ErrorException;

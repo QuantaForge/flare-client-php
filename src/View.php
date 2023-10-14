@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\FlareClient;
+namespace QuantaForge\FlareClient;
 
 use Symfony\Component\VarDumper\Cloner\VarCloner;
 use Symfony\Component\VarDumper\Dumper\HtmlDumper;

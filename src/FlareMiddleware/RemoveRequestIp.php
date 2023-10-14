@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\FlareMiddleware;
+namespace QuantaForge\FlareClient\FlareMiddleware;
 
-use QuantaQuirk\FlareClient\Report;
+use QuantaForge\FlareClient\Report;
 
 class RemoveRequestIp implements FlareMiddleware
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Concerns;
+namespace QuantaForge\FlareClient\Concerns;
 
-use QuantaQuirk\FlareClient\Time\SystemTime;
-use QuantaQuirk\FlareClient\Time\Time;
+use QuantaForge\FlareClient\Time\SystemTime;
+use QuantaForge\FlareClient\Time\Time;
 
 trait UsesTime
 {

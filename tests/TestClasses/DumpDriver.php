@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Tests\TestClasses;
+namespace QuantaForge\FlareClient\Tests\TestClasses;
 
 use PHPUnit\Framework\Assert;
-use QuantaQuirk\Snapshots\Drivers\YamlDriver;
+use QuantaForge\Snapshots\Drivers\YamlDriver;
 use Symfony\Component\Yaml\Yaml;
 
 class DumpDriver extends YamlDriver

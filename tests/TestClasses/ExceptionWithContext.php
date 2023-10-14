@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Tests\TestClasses;
+namespace QuantaForge\FlareClient\Tests\TestClasses;
 
-use QuantaQuirk\FlareClient\Contracts\ProvidesFlareContext;
+use QuantaForge\FlareClient\Contracts\ProvidesFlareContext;
 
 class ExceptionWithContext extends \Exception implements ProvidesFlareContext
 {

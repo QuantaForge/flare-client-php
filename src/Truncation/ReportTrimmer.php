@@ -1,12 +1,12 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Truncation;
+namespace QuantaForge\FlareClient\Truncation;
 
 class ReportTrimmer
 {
     protected static int $maxPayloadSize = 524288;
 
-    /** @var array<int, class-string<\QuantaQuirk\FlareClient\Truncation\TruncationStrategy>> */
+    /** @var array<int, class-string<\QuantaForge\FlareClient\Truncation\TruncationStrategy>> */
     protected array $strategies = [
         TrimStringsStrategy::class,
         TrimStackFrameArgumentsStrategy::class,

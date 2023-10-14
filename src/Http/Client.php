@@ -1,11 +1,11 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Http;
+namespace QuantaForge\FlareClient\Http;
 
-use QuantaQuirk\FlareClient\Http\Exceptions\BadResponseCode;
-use QuantaQuirk\FlareClient\Http\Exceptions\InvalidData;
-use QuantaQuirk\FlareClient\Http\Exceptions\MissingParameter;
-use QuantaQuirk\FlareClient\Http\Exceptions\NotFound;
+use QuantaForge\FlareClient\Http\Exceptions\BadResponseCode;
+use QuantaForge\FlareClient\Http\Exceptions\InvalidData;
+use QuantaForge\FlareClient\Http\Exceptions\MissingParameter;
+use QuantaForge\FlareClient\Http\Exceptions\NotFound;
 
 class Client
 {
@@ -213,7 +213,7 @@ class Client
             'Content-Type: application/json',
         ], $headers));
 
-        curl_setopt($curlHandle, CURLOPT_USERAGENT, 'QuantaQuirk/Flare API 1.0');
+        curl_setopt($curlHandle, CURLOPT_USERAGENT, 'QuantaForge/Flare API 1.0');
         curl_setopt($curlHandle, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($curlHandle, CURLOPT_TIMEOUT, $this->timeout);
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, true);

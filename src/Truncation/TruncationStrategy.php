@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Truncation;
+namespace QuantaForge\FlareClient\Truncation;
 
 interface TruncationStrategy
 {

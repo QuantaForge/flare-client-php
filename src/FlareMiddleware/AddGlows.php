@@ -1,12 +1,12 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\FlareMiddleware;
+namespace QuantaForge\FlareClient\FlareMiddleware;
 
-namespace QuantaQuirk\FlareClient\FlareMiddleware;
+namespace QuantaForge\FlareClient\FlareMiddleware;
 
 use Closure;
-use QuantaQuirk\FlareClient\Glows\GlowRecorder;
-use QuantaQuirk\FlareClient\Report;
+use QuantaForge\FlareClient\Glows\GlowRecorder;
+use QuantaForge\FlareClient\Report;
 
 class AddGlows implements FlareMiddleware
 {

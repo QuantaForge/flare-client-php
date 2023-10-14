@@ -1,8 +1,8 @@
 <?php
 
 
-use QuantaQuirk\FlareClient\Truncation\ReportTrimmer;
-use QuantaQuirk\FlareClient\Truncation\TrimStringsStrategy;
+use QuantaForge\FlareClient\Truncation\ReportTrimmer;
+use QuantaForge\FlareClient\Truncation\TrimStringsStrategy;
 
 it('can trim long strings in payload', function () {
     foreach (TrimStringsStrategy::thresholds() as $threshold) {

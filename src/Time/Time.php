@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Time;
+namespace QuantaForge\FlareClient\Time;
 
 interface Time
 {

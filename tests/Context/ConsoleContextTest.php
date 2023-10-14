@@ -1,6 +1,6 @@
 <?php
 
-use QuantaQuirk\FlareClient\Context\ConsoleContextProvider;
+use QuantaForge\FlareClient\Context\ConsoleContextProvider;
 
 it('can return the console context as an array', function () {
     $arguments = [

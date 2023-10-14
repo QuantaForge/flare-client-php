@@ -1,20 +1,20 @@
 <?php
 
-namespace QuantaQuirk\FlareClient;
+namespace QuantaForge\FlareClient;
 
 use ErrorException;
-use QuantaQuirk\Backtrace\Arguments\ArgumentReducers;
-use QuantaQuirk\Backtrace\Arguments\Reducers\ArgumentReducer;
-use QuantaQuirk\Backtrace\Backtrace;
-use QuantaQuirk\Backtrace\Frame as QuantaQuirkFrame;
-use QuantaQuirk\FlareClient\Concerns\HasContext;
-use QuantaQuirk\FlareClient\Concerns\UsesTime;
-use QuantaQuirk\FlareClient\Context\ContextProvider;
-use QuantaQuirk\FlareClient\Contracts\ProvidesFlareContext;
-use QuantaQuirk\FlareClient\Glows\Glow;
-use QuantaQuirk\FlareClient\Solutions\ReportSolution;
-use QuantaQuirk\Ignition\Contracts\Solution;
-use QuantaQuirk\QuantaQuirkIgnition\Exceptions\ViewException;
+use QuantaForge\Backtrace\Arguments\ArgumentReducers;
+use QuantaForge\Backtrace\Arguments\Reducers\ArgumentReducer;
+use QuantaForge\Backtrace\Backtrace;
+use QuantaForge\Backtrace\Frame as QuantaForgeFrame;
+use QuantaForge\FlareClient\Concerns\HasContext;
+use QuantaForge\FlareClient\Concerns\UsesTime;
+use QuantaForge\FlareClient\Context\ContextProvider;
+use QuantaForge\FlareClient\Contracts\ProvidesFlareContext;
+use QuantaForge\FlareClient\Glows\Glow;
+use QuantaForge\FlareClient\Solutions\ReportSolution;
+use QuantaForge\Ignition\Contracts\Solution;
+use QuantaForge\QuantaForgeIgnition\Exceptions\ViewException;
 use Throwable;
 
 class Report
@@ -315,15 +315,15 @@ class Report
     protected function stracktraceAsArray(): array
     {
         return array_map(
-            fn (QuantaQuirkFrame $frame) => Frame::fromQuantaQuirkFrame($frame)->toArray(),
+            fn (QuantaForgeFrame $frame) => Frame::fromQuantaForgeFrame($frame)->toArray(),
             $this->cleanupStackTraceForError($this->stacktrace->frames()),
         );
     }
 
     /**
-     * @param array<QuantaQuirkFrame> $frames
+     * @param array<QuantaForgeFrame> $frames
      *
-     * @return array<QuantaQuirkFrame>
+     * @return array<QuantaForgeFrame>
      */
     protected function cleanupStackTraceForError(array $frames): array
     {

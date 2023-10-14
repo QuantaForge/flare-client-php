@@ -1,19 +1,19 @@
 <?php
 
-namespace QuantaQuirk\FlareClient;
+namespace QuantaForge\FlareClient;
 
-use QuantaQuirk\Backtrace\Frame as QuantaQuirkFrame;
+use QuantaForge\Backtrace\Frame as QuantaForgeFrame;
 
 class Frame
 {
-    public static function fromQuantaQuirkFrame(
-        QuantaQuirkFrame $frame,
+    public static function fromQuantaForgeFrame(
+        QuantaForgeFrame $frame,
     ): self {
         return new self($frame);
     }
 
     public function __construct(
-        protected QuantaQuirkFrame $frame,
+        protected QuantaForgeFrame $frame,
     ) {
     }
 

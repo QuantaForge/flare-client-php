@@ -1,8 +1,8 @@
 <?php
 
-use QuantaQuirk\FlareClient\Context\ConsoleContextProvider;
-use QuantaQuirk\FlareClient\FlareMiddleware\AddEnvironmentInformation;
-use QuantaQuirk\FlareClient\Report;
+use QuantaForge\FlareClient\Context\ConsoleContextProvider;
+use QuantaForge\FlareClient\FlareMiddleware\AddEnvironmentInformation;
+use QuantaForge\FlareClient\Report;
 
 it('adds the php version to a report', function () {
     $middleware = new AddEnvironmentInformation();

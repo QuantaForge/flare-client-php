@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Contracts;
+namespace QuantaForge\FlareClient\Contracts;
 
 interface ProvidesFlareContext
 {

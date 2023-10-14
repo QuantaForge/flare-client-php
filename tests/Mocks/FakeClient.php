@@ -1,12 +1,12 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Tests\Mocks;
+namespace QuantaForge\FlareClient\Tests\Mocks;
 
 use DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
-use QuantaQuirk\Support\Arr;
-use QuantaQuirk\FlareClient\Http\Client;
-use QuantaQuirk\FlareClient\Http\Response;
-use QuantaQuirk\FlareClient\Tests\TestClasses\Assert;
+use QuantaForge\Support\Arr;
+use QuantaForge\FlareClient\Http\Client;
+use QuantaForge\FlareClient\Http\Response;
+use QuantaForge\FlareClient\Tests\TestClasses\Assert;
 
 class FakeClient extends Client
 {

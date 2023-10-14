@@ -1,7 +1,7 @@
 <?php
 
-use QuantaQuirk\FlareClient\Glows\Glow;
-use QuantaQuirk\FlareClient\Glows\GlowRecorder;
+use QuantaForge\FlareClient\Glows\Glow;
+use QuantaForge\FlareClient\Glows\GlowRecorder;
 
 it('is initially empty', function () {
     $recorder = new GlowRecorder();

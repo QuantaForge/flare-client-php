@@ -1,12 +1,12 @@
 <?php
 
 use PHPUnit\Framework\Exception;
-use QuantaQuirk\FlareClient\Enums\MessageLevels;
-use QuantaQuirk\FlareClient\Flare;
-use QuantaQuirk\FlareClient\Tests\Concerns\MatchesReportSnapshots;
-use QuantaQuirk\FlareClient\Tests\Mocks\FakeClient;
-use QuantaQuirk\FlareClient\Tests\TestClasses\ExceptionWithContext;
-use QuantaQuirk\FlareClient\Tests\TestClasses\TraceArguments;
+use QuantaForge\FlareClient\Enums\MessageLevels;
+use QuantaForge\FlareClient\Flare;
+use QuantaForge\FlareClient\Tests\Concerns\MatchesReportSnapshots;
+use QuantaForge\FlareClient\Tests\Mocks\FakeClient;
+use QuantaForge\FlareClient\Tests\TestClasses\ExceptionWithContext;
+use QuantaForge\FlareClient\Tests\TestClasses\TraceArguments;
 
 uses(MatchesReportSnapshots::class);
 

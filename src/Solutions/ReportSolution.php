@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Solutions;
+namespace QuantaForge\FlareClient\Solutions;
 
-use QuantaQuirk\Ignition\Contracts\RunnableSolution;
-use QuantaQuirk\Ignition\Contracts\Solution as SolutionContract;
+use QuantaForge\Ignition\Contracts\RunnableSolution;
+use QuantaForge\Ignition\Contracts\Solution as SolutionContract;
 
 class ReportSolution
 {

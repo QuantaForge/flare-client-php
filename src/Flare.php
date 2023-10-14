@@ -1,26 +1,26 @@
 <?php
 
-namespace QuantaQuirk\FlareClient;
+namespace QuantaForge\FlareClient;
 
 use Error;
 use ErrorException;
 use Exception;
-use QuantaQuirk\Contracts\Container\Container;
-use QuantaQuirk\Pipeline\Pipeline;
-use QuantaQuirk\Backtrace\Arguments\ArgumentReducers;
-use QuantaQuirk\Backtrace\Arguments\Reducers\ArgumentReducer;
-use QuantaQuirk\FlareClient\Concerns\HasContext;
-use QuantaQuirk\FlareClient\Context\BaseContextProviderDetector;
-use QuantaQuirk\FlareClient\Context\ContextProviderDetector;
-use QuantaQuirk\FlareClient\Enums\MessageLevels;
-use QuantaQuirk\FlareClient\FlareMiddleware\AddEnvironmentInformation;
-use QuantaQuirk\FlareClient\FlareMiddleware\AddGlows;
-use QuantaQuirk\FlareClient\FlareMiddleware\CensorRequestBodyFields;
-use QuantaQuirk\FlareClient\FlareMiddleware\FlareMiddleware;
-use QuantaQuirk\FlareClient\FlareMiddleware\RemoveRequestIp;
-use QuantaQuirk\FlareClient\Glows\Glow;
-use QuantaQuirk\FlareClient\Glows\GlowRecorder;
-use QuantaQuirk\FlareClient\Http\Client;
+use QuantaForge\Contracts\Container\Container;
+use QuantaForge\Pipeline\Pipeline;
+use QuantaForge\Backtrace\Arguments\ArgumentReducers;
+use QuantaForge\Backtrace\Arguments\Reducers\ArgumentReducer;
+use QuantaForge\FlareClient\Concerns\HasContext;
+use QuantaForge\FlareClient\Context\BaseContextProviderDetector;
+use QuantaForge\FlareClient\Context\ContextProviderDetector;
+use QuantaForge\FlareClient\Enums\MessageLevels;
+use QuantaForge\FlareClient\FlareMiddleware\AddEnvironmentInformation;
+use QuantaForge\FlareClient\FlareMiddleware\AddGlows;
+use QuantaForge\FlareClient\FlareMiddleware\CensorRequestBodyFields;
+use QuantaForge\FlareClient\FlareMiddleware\FlareMiddleware;
+use QuantaForge\FlareClient\FlareMiddleware\RemoveRequestIp;
+use QuantaForge\FlareClient\Glows\Glow;
+use QuantaForge\FlareClient\Glows\GlowRecorder;
+use QuantaForge\FlareClient\Http\Client;
 use Throwable;
 
 class Flare
@@ -162,8 +162,8 @@ class Flare
     }
 
     /**
-     * @param \QuantaQuirk\FlareClient\Http\Client $client
-     * @param \QuantaQuirk\FlareClient\Context\ContextProviderDetector|null $contextDetector
+     * @param \QuantaForge\FlareClient\Http\Client $client
+     * @param \QuantaForge\FlareClient\Context\ContextProviderDetector|null $contextDetector
      * @param array<int, FlareMiddleware> $middleware
      */
     public function __construct(

@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Context;
+namespace QuantaForge\FlareClient\Context;
 
 class BaseContextProviderDetector implements ContextProviderDetector
 {

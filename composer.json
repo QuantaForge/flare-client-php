@@ -1,8 +1,8 @@
 {
-    "name": "quantaquirk/flare-client-php",
+    "name": "quantaforge/flare-client-php",
     "description": "Send PHP errors to Flare",
     "keywords": [
-        "quantaquirk",
+        "quantaforge",
         "flare",
         "exception",
         "reporting"
@@ -16,8 +16,8 @@
     ],
     "require": {
         "php": "^8.1",
-        "quantaquirk/pipeline": "^1.0.0",
-        "quantaquirk/backtrace": "^1.0.0",
+        "quantaforge/pipeline": "^1.0.0",
+        "quantaforge/backtrace": "^1.0.0",
         "symfony/http-foundation": "^5.0|^6.0",
         "symfony/mime": "^5.2|^6.0",
         "symfony/process": "^5.2|^6.0",
@@ -29,12 +29,12 @@
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-phpunit": "^1.0",
-        "quantaquirk/phpunit-snapshot-assertions": "^1.0.0",
+        "quantaforge/phpunit-snapshot-assertions": "^1.0.0",
         "pestphp/pest": "^1.20"
     },
     "autoload": {
         "psr-4": {
-            "QuantaQuirk\\FlareClient\\": "src"
+            "QuantaForge\\FlareClient\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -42,7 +42,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "QuantaQuirk\\FlareClient\\Tests\\": "tests"
+            "QuantaForge\\FlareClient\\Tests\\": "tests"
         }
     },
     "scripts": {

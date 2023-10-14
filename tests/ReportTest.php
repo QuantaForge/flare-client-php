@@ -1,11 +1,11 @@
 <?php
 
-use QuantaQuirk\FlareClient\Context\ConsoleContextProvider;
-use QuantaQuirk\FlareClient\Glows\Glow;
-use QuantaQuirk\FlareClient\Report;
-use QuantaQuirk\FlareClient\Tests\Concerns\MatchesReportSnapshots;
-use QuantaQuirk\FlareClient\Tests\TestClasses\FakeErrorHandler;
-use QuantaQuirk\FlareClient\Tests\TestClasses\FakeTime;
+use QuantaForge\FlareClient\Context\ConsoleContextProvider;
+use QuantaForge\FlareClient\Glows\Glow;
+use QuantaForge\FlareClient\Report;
+use QuantaForge\FlareClient\Tests\Concerns\MatchesReportSnapshots;
+use QuantaForge\FlareClient\Tests\TestClasses\FakeErrorHandler;
+use QuantaForge\FlareClient\Tests\TestClasses\FakeTime;
 
 uses(MatchesReportSnapshots::class);
 

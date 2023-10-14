@@ -1,10 +1,10 @@
 <?php
 
-namespace QuantaQuirk\FlareClient;
+namespace QuantaForge\FlareClient;
 
 use Exception;
-use QuantaQuirk\FlareClient\Http\Client;
-use QuantaQuirk\FlareClient\Truncation\ReportTrimmer;
+use QuantaForge\FlareClient\Http\Client;
+use QuantaForge\FlareClient\Truncation\ReportTrimmer;
 
 class Api
 {

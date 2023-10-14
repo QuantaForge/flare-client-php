@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Http;
+namespace QuantaForge\FlareClient\Http;
 
 class Response
 {

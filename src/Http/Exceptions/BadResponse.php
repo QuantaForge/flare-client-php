@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Http\Exceptions;
+namespace QuantaForge\FlareClient\Http\Exceptions;
 
 use Exception;
-use QuantaQuirk\FlareClient\Http\Response;
+use QuantaForge\FlareClient\Http\Response;
 
 class BadResponse extends Exception
 {

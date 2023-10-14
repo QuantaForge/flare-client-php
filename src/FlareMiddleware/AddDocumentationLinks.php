@@ -1,10 +1,10 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\FlareMiddleware;
+namespace QuantaForge\FlareClient\FlareMiddleware;
 
 use ArrayObject;
 use Closure;
-use QuantaQuirk\FlareClient\Report;
+use QuantaForge\FlareClient\Report;
 
 class AddDocumentationLinks implements FlareMiddleware
 {

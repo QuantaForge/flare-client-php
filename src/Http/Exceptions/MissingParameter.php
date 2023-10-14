@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Http\Exceptions;
+namespace QuantaForge\FlareClient\Http\Exceptions;
 
 use Exception;
 

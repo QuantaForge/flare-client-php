@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\FlareMiddleware;
+namespace QuantaForge\FlareClient\FlareMiddleware;
 
 use Closure;
-use QuantaQuirk\FlareClient\Report;
+use QuantaForge\FlareClient\Report;
 use Symfony\Component\Process\Process;
 use Throwable;
 

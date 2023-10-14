@@ -1,8 +1,8 @@
 <?php
 
-use QuantaQuirk\FlareClient\Glows\Glow;
-use QuantaQuirk\FlareClient\Report;
-use QuantaQuirk\FlareClient\Tests\TestClasses\FakeTime;
+use QuantaForge\FlareClient\Glows\Glow;
+use QuantaForge\FlareClient\Report;
+use QuantaForge\FlareClient\Tests\TestClasses\FakeTime;
 
 uses()->beforeEach(function () {
     Report::$fakeTrackingUuid = 'fake-uuid';

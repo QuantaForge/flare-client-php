@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Concerns;
+namespace QuantaForge\FlareClient\Concerns;
 
 trait HasContext
 {

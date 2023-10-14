@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\FlareClient\Tests\TestClasses;
+namespace QuantaForge\FlareClient\Tests\TestClasses;
 
 use PHPUnit\Framework\Assert as PHPUnit;
 use PHPUnit\Framework\Constraint\ArraySubset;
